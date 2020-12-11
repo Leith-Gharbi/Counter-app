@@ -7,12 +7,10 @@ import reportWebVitals from './reportWebVitals';
 // this demonstrate how to add bootstrap in project 
 import 'bootstrap/dist/css/bootstrap.css';
 
-import Counters from './components/counters';
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Counters />
-  </React.StrictMode>,
+  <App></App>,
   document.getElementById('root')
 );
 
